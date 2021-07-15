@@ -1,0 +1,122 @@
+      body{
+            background-color:rgba(14, 103, 224, 0.43);
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .mobile-version{
+            width: 519px;
+            height: 880px;
+            display: flex;
+            flex-direction: column;
+            margin: 0 auto;
+            border: 5px solid rgba(14, 83, 216, 0.43);
+        }
+
+        
+        a{
+            text-decoration: none;
+            color: white;
+        }
+
+
+        nav{
+            display: flex;
+            justify-content: space-between;
+            background-color:rgba(14, 83, 216, 1);
+            height: 115px;
+            color: white;
+            width: 519px;
+        }
+
+        .logo{
+            margin-top: 50px;
+        }
+
+        ul{
+            display: flex;
+            list-style-type: none;
+        }
+
+        ul li{
+           margin: 30px 15px;
+           font-size: 18px;
+           font-weight: 900px;
+        }
+
+        section{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            background-image: url('./image/backgroundImage.svg');
+            background-repeat: no-repeat;
+            background-color: rgba(14, 103, 224, 0.13);
+            width: 519px;
+            background-position-x: center;
+            background-position-y: bottom;
+            color: white;
+            height: 719px;
+        }
+
+        .bio-data{
+            position: absolute;
+            width: 452px;
+            height: 400px;
+            margin-left: 229px;
+            top: 145px;
+        }
+
+    
+        .me{
+            font-family: Roboto;
+            font-weight: bold;
+            font-size: 48px;
+            align-items: center;
+            position: relative;
+            left: -120px;
+            letter-spacing: 0.17em;
+        }
+
+        .figma{
+            height: 46px;
+            font-size: 19px;
+            position: relative;
+            left: -80px;
+            line-height: 141.69%;
+            letter-spacing: 0px;
+            color: #FBF9F9;
+        }
+
+        .my-gallery{
+            margin-top: 180px;
+        }
+
+        .my-gallery-header{
+            margin-top: 280px;
+        }
+
+        .new{
+            font-size: 42px;
+            letter-spacing: 5px;
+        }
+
+        h1{
+            font-size: 48px;
+            text-align: center;
+            margin: 0px;
+        }
+
+        .pictures{
+            position: relative;
+            top: 0px;
+            margin: 20px;
+        }
+  
+        
+        footer{
+            text-align: center;
+            width: 519px;
+            color: white;
+            background: rgba(255, 255, 255, 0.53);
+        }
